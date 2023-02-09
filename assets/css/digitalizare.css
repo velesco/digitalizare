@@ -1,0 +1,20 @@
+.hide > *{
+    opacity: 0;
+}
+
+.show-over {
+    opacity: 1;
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    top:50%;
+    width: 30%;
+    border: 1px solid black;
+    z-index:999;
+}
+
+.display-none {
+    display: none !important;
+}
