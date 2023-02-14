@@ -18,6 +18,32 @@ body {
     flex-basis: 100%;
 }
 
+#i46k {
+    margin: 0 2rem 2rem 2rem;
+}
+
+#video-ai {
+    padding: 1rem;
+    width: fit-content;
+}
+
+.page-content {
+    font-size: 14px;
+    color: #4c5258;
+    letter-spacing: .5px;
+    background: #f7f7ff;
+    overflow-x: hidden;
+    font-family: Roboto, sans-serif;
+}
+
+.flex-center-vo {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
 #ipw8 {
     height: 350px;
     width: 615px;
@@ -315,6 +341,7 @@ body {
 #i7eel {
     padding: 10px;
     text-align: right;
+    margin: 0;
 }
 
 @media (max-width: 768px) {
