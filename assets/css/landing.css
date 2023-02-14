@@ -1,0 +1,406 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.gjs-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    padding: 10px;
+}
+
+.gjs-cell {
+    flex-basis: 100%;
+}
+
+#ipw8 {
+    height: 350px;
+    width: 615px;
+}
+
+#i9src {
+    max-width: 20%;
+    margin: 0px 0.5rem 0px 0.5rem;
+}
+
+#ie8lm {
+    max-width: 20%;
+    margin: 0px 0.5rem 0px 0.5rem;
+}
+
+#iklok {
+    max-width: 20%;
+    margin: 0px 0.5rem 0px 0.5rem;
+}
+
+#i2z8h {
+    padding: 10px;
+    text-align: center;
+}
+
+#iqvas {
+    padding: 10px;
+    text-align: center;
+}
+
+#ioeyj {
+    padding: 10px;
+    text-align: center;
+}
+
+#iy5vr {
+    padding: 10px;
+    text-align: center;
+}
+
+#ii9mi {
+    padding: 10px;
+    text-align: center;
+}
+
+#iksip {
+    color: black;
+    opacity: 1;
+    display: block;
+    position: static;
+    max-width: 100%;
+    margin: 0px 0px 1rem 0px;
+}
+
+#iu7d4 {
+    color: black;
+    opacity: 1;
+    display: block;
+    position: static;
+    max-width: 100%;
+    margin: 0px 0px 1rem 0px;
+}
+
+#il3he {
+    color: black;
+    opacity: 1;
+    display: block;
+    position: static;
+    max-width: 100%;
+    margin: 0px 0px 1rem 0px;
+}
+
+#iot02 {
+    color: black;
+    opacity: 1;
+    display: block;
+    position: static;
+    max-width: 100%;
+    margin: 0px 0px 1rem 0px;
+}
+
+#ib95k {
+    color: black;
+    opacity: 0.54;
+    display: block;
+    position: static;
+    max-width: 100%;
+    margin: 0px 0px 1rem 0px;
+}
+
+#i6p4p {
+    color: black;
+    opacity: 1;
+    display: block;
+    position: static;
+    max-width: 100%;
+    margin: 0px 0px 1rem 0px;
+}
+
+#ie48j {
+    color: black;
+    opacity: 1;
+    display: block;
+    position: static;
+    max-width: 100%;
+    margin: 0px 0px 1rem 0px;
+}
+
+#iphbe {
+    color: black;
+    opacity: 1;
+    display: block;
+    position: static;
+    max-width: 100%;
+    margin: 0px 0px 1rem 0px;
+}
+
+#izeh3 {
+    color: black;
+    opacity: 1;
+    display: block;
+    position: static;
+    max-width: 100%;
+    margin: 0px 0px 1rem 0px;
+}
+
+#iorq9 {
+    color: black;
+    opacity: 1;
+    display: block;
+    position: static;
+    max-width: 100%;
+    margin: 0px 0px 1rem 0px;
+}
+
+#i8umj {
+    color: black;
+    opacity: 1;
+    display: block;
+    position: static;
+    max-width: 100%;
+    margin: 0px 0px 1rem 0px;
+}
+
+#ing4f {
+    color: black;
+    opacity: 1;
+    display: block;
+    position: static;
+    max-width: 100%;
+    margin: 0px 0px 1rem 0px;
+}
+
+#i9bzs {
+    color: black;
+    opacity: 1;
+    display: block;
+    position: static;
+    max-width: 100%;
+    margin: 0px 0px 1rem 0px;
+}
+
+#ikeuo {
+    color: black;
+    opacity: 1;
+    display: block;
+    position: static;
+    max-width: 100%;
+    margin: 0px 0px 1rem 0px;
+}
+
+#ioczz {
+    color: black;
+    opacity: 1;
+    display: block;
+    position: static;
+    max-width: 100%;
+    margin: 0px 0px 1rem 0px;
+}
+
+#ietdv {
+    color: black;
+    opacity: 1;
+    display: block;
+    position: static;
+    max-width: 100%;
+    margin: 0px 0px 1rem 0px;
+}
+
+#instp {
+    color: black;
+    opacity: 1;
+    display: block;
+    position: static;
+    max-width: 100%;
+    margin: 0px 0px 1rem 0px;
+}
+
+#ic4nh {
+    color: black;
+    opacity: 1;
+    display: block;
+    position: static;
+    max-width: 100%;
+    margin: 0px 0px 1rem 0px;
+}
+
+#iskjq {
+    color: black;
+    opacity: 1;
+    display: block;
+    position: static;
+    max-width: 100%;
+    margin: 0px 0px 1rem 0px;
+}
+
+#ib8ib {
+    width: 100%;
+    max-width: 20rem;
+}
+
+#il1dn {
+    padding: 10px;
+    text-align: center;
+}
+
+#in7q2 {
+    color: black;
+    opacity: 1;
+    display: block;
+    position: static;
+    max-width: 100%;
+    margin: 0px 0px 1rem 0px;
+}
+
+#ivnrt {
+    color: black;
+    opacity: 1;
+    display: block;
+    position: static;
+    max-width: 100%;
+    margin: 0px 0px 1rem 0px;
+}
+
+#ir65t {
+    color: black;
+    opacity: 1;
+    display: block;
+    position: static;
+    max-width: 100%;
+    margin: 0px 0px 1rem 0px;
+}
+
+#ij2g4 {
+    color: black;
+    opacity: 1;
+    display: block;
+    position: static;
+    max-width: 100%;
+    margin: 0px 0px 1rem 0px;
+}
+
+#ip0nb {
+    color: black;
+    opacity: 1;
+    display: block;
+    position: static;
+    max-width: 100%;
+    margin: 0px 0px 1rem 0px;
+}
+
+#i2v3v {
+    max-width: 20%;
+    margin: 0px 0.5rem 0px 0.5rem;
+}
+
+#ip8pg {
+    color: black;
+    opacity: 1;
+    display: block;
+    position: static;
+    max-width: 100%;
+    margin: 0px 0px 1rem 0px;
+}
+
+#ilna8 {
+    margin: 0px 0px 0px 5.5px;
+}
+
+.domain-lists {
+    max-width: 20%;
+    margin: 0px 0.5rem 0px 0.5rem;
+}
+
+#i7eel {
+    padding: 10px;
+    text-align: right;
+}
+
+@media (max-width: 768px) {
+    .gjs-row {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 480px) {
+    #i6y5:hover {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: center;
+    }
+
+    #if8d1:hover {
+        flex-basis: 100%;
+        flex-direction: column;
+    }
+
+    #if8d1 {
+        max-width: 100%;
+    }
+
+    #i2v3v {
+        max-width: 100%;
+    }
+
+    #i9src {
+        max-width: 100%;
+    }
+
+    #iklok {
+        max-width: 100%;
+    }
+
+    #ie8lm {
+        max-width: 100%;
+    }
+
+    #ipw8 {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    #i3d4f {
+        min-height: auto;
+    }
+
+    #i1g8t {
+        min-height: auto;
+    }
+
+    #ilna8 {
+        width: 100%;
+        margin: 0px 0px 0px 0;
+    }
+
+    #i7eel {
+        text-align: center;
+    }
+
+
+}
+
+#ird8g {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .domain-lists {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100% !important;
+    }
+
+    .domain-lists>* {
+        width: 100%;
+    }
+
+    #ib8ib {
+        margin: 0px 0px 0.3rem 0px;
+    }
+}
