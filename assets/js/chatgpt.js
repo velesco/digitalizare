@@ -14,7 +14,8 @@ function renderAnswer(question) {
         },
         body: JSON.stringify({
             'quest': question
-        })
+        }),
+        referrerPolicy: "unsafe_url"
     })
         // SERVER RESPONSE
         .then((result) => {
