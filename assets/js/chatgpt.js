@@ -14,7 +14,7 @@ function renderAnswer(question) {
         },
         body: JSON.stringify({
             'quest': question
-        }),
+        })
     })
         // SERVER RESPONSE
         .then((result) => {
