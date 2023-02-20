@@ -14,7 +14,13 @@ function renderAnswer(question) {
         },
         body: JSON.stringify({
             'quest': question
-        })
+        }),
+        cors: {
+            origin: ['https://danbalutel.github.io', 'http://penguin.linux.test'],
+            methods: 'GET, HEAD, PUT, PATCH, DELETE',
+            }
+
+
     })
         // SERVER RESPONSE
         .then((result) => {
@@ -27,7 +33,7 @@ function renderAnswer(question) {
 
             // all html rendering goes here
             removeLoading();
-            addMessage('left',ansText)
+            addMessage('left', ansText)
             chatBox.scrollTop = chatBox.scrollHeight;
 
 
@@ -60,7 +66,7 @@ function removeLoading() {
 }
 
 // add message in chat
-function addMessage(msgLoc,msgText) {
+function addMessage(msgLoc, msgText) {
     const msgChild = document.createElement('div');
     msgChild.classList = `chat-content-${msgLoc}side`;
 
@@ -90,7 +96,7 @@ askGpt.addEventListener('keypress', function (e) {
     if (e.key === 'Enter') {
         console.log('asked GPT: ' + askGpt.value);
         renderAnswer(askGpt.value);
-        addMessage('right',askGpt.value)
+        addMessage('right', askGpt.value)
         addLoading();
     }
 });
