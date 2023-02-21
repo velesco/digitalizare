@@ -9,7 +9,6 @@
 	<link rel="icon" href="assets/images/favicon-32x32.png" type="image/png" />
 	<!--plugins-->
 	<link href="assets/plugins/simplebar/css/simplebar.css" rel="stylesheet" />
-	<link href="assets/plugins/fullcalendar/css/main.min.css" rel="stylesheet" />
 	<link href="assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" />
 	<link href="assets/plugins/metismenu/css/metisMenu.min.css" rel="stylesheet" />
 	<!-- loader-->
@@ -25,7 +24,7 @@
 	<link rel="stylesheet" href="assets/css/dark-theme.css" />
 	<link rel="stylesheet" href="assets/css/semi-dark.css" />
 	<link rel="stylesheet" href="assets/css/header-colors.css" />
-	<title> Admin Dashboard </title>
+	<title>Admin Dashboard </title>
 </head>
 
 <body>
@@ -666,19 +665,19 @@
 			<div class="page-content">
 				<!--breadcrumb-->
 				<div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
-					<div class="breadcrumb-title pe-3">Applications</div>
+					<div class="breadcrumb-title pe-3">Echipa</div>
 					<div class="ps-3">
 						<nav aria-label="breadcrumb">
 							<ol class="breadcrumb mb-0 p-0">
 								<li class="breadcrumb-item"><a href="javascript:;"><i class="bx bx-home-alt"></i></a>
 								</li>
-								<li class="breadcrumb-item active" aria-current="page">File Manager</li>
+								<li class="breadcrumb-item active" aria-current="page">Echipa</li>
 							</ol>
 						</nav>
 					</div>
 					<div class="ms-auto">
 						<div class="btn-group">
-							<button type="button" class="btn btn-primary">Settings</button>
+							<button type="button" class="btn btn-primary">Setari</button>
 							<button type="button" class="btn btn-primary split-bg-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown">	<span class="visually-hidden">Toggle Dropdown</span>
 							</button>
 							<div class="dropdown-menu dropdown-menu-right dropdown-menu-lg-end">	<a class="dropdown-item" href="javascript:;">Action</a>
@@ -690,356 +689,114 @@
 					</div>
 				</div>
 				<!--end breadcrumb-->
-				<div class="row">
-					<div class="col-12 col-lg-3">
-						<div class="card">
-							<div class="card-body">
-								<div class="d-grid"> <a href="javascript:;" class="btn btn-primary">+ Add File</a>
-								</div>
-								<h5 class="my-3">My Drive</h5>
-								<div class="fm-menu">
-									<div class="list-group list-group-flush"> <a href="javascript:;" style="background: #008cff;color: #fff;transition: all .2s ease-out;" class="list-group-item py-1"><i class='bx bx-folder me-2'></i><span>All Files</span></a>
-										<a href="javascript:;" class="list-group-item py-1"><i class='bx bx-devices me-2'></i><span>My Devices</span></a>
-										<a href="javascript:;" class="list-group-item py-1"><i class='bx bx-analyse me-2'></i><span>Recents</span></a>
-										<a href="javascript:;" class="list-group-item py-1"><i class='bx bx-plug me-2'></i><span>Important</span></a>
-										<a href="javascript:;" class="list-group-item py-1"><i class='bx bx-trash-alt me-2'></i><span>Deleted Files</span></a>
-										<a href="javascript:;" class="list-group-item py-1"><i class='bx bx-file me-2'></i>
-				                    <span>Documents</span></a>
-										<a href="javascript:;" class="list-group-item py-1"><i class='bx bx-image me-2'></i><span>Images</span></a>
-										<a href="javascript:;" class="list-group-item py-1"><i class='bx bx-video me-2'></i><span>Videos</span></a>
-										<a href="javascript:;" class="list-group-item py-1"><i class='bx bx-music me-2'></i><span>Audio</span></a>
-										<a href="javascript:;" class="list-group-item py-1"><i class='bx bx-beer me-2'></i><span>Zip Files</span></a>
+				<div class="row row-cols-1 row-cols-lg-2 row-cols-xl-4">
+					<div class="col">
+						<div class="card radius-15">
+							<div class="card-body text-center">
+								<div class="p-4 border radius-15">
+									<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Microsoft_Office_Outlook_%282018%E2%80%93present%29.svg/1101px-Microsoft_Office_Outlook_%282018%E2%80%93present%29.svg.png" width="110" height="110"  alt="">
+									<h5 class="mb-0 mt-5">Microsoft OutLook</h5>
+
+									<div class="d-grid"> <a href="#" class="btn btn-outline-primary radius-15">Deschide</a>
 									</div>
-								</div>
-							</div>
-						</div>
-						<div class="card">
-							<div class="card-body">
-								<h5 class="mb-0 text-primary font-weight-bold">45.5 GB <span class="float-end text-secondary">50 GB</span></h5>
-								<p class="mb-0 mt-2"><span class="text-secondary">Used</span><span class="float-end text-primary">Upgrade</span>
-								</p>
-								<div class="progress mt-3" style="height:7px;">
-									<div class="progress-bar" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
-									<div class="progress-bar bg-warning" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-									<div class="progress-bar bg-danger" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-								</div>
-								<div class="mt-3"></div>
-								<div class="d-flex align-items-center">
-									<div class="fm-file-box bg-light-primary text-primary"><i class='bx bx-image'></i>
-									</div>
-									<div class="flex-grow-1 ms-2">
-										<h6 class="mb-0">Images</h6>
-										<p class="mb-0 text-secondary">1,756 files</p>
-									</div>
-									<h6 class="text-primary mb-0">15.3 GB</h6>
-								</div>
-								<div class="d-flex align-items-center mt-3">
-									<div class="fm-file-box bg-light-success text-success"><i class='bx bxs-file-doc'></i>
-									</div>
-									<div class="flex-grow-1 ms-2">
-										<h6 class="mb-0">Documents</h6>
-										<p class="mb-0 text-secondary">123 files</p>
-									</div>
-									<h6 class="text-primary mb-0">256 MB</h6>
-								</div>
-								<div class="d-flex align-items-center mt-3">
-									<div class="fm-file-box bg-light-danger text-danger"><i class='bx bx-video'></i>
-									</div>
-									<div class="flex-grow-1 ms-2">
-										<h6 class="mb-0">Media Files</h6>
-										<p class="mb-0 text-secondary">24 files</p>
-									</div>
-									<h6 class="text-primary mb-0">3.4 GB</h6>
-								</div>
-								<div class="d-flex align-items-center mt-3">
-									<div class="fm-file-box bg-light-warning text-warning"><i class='bx bx-image'></i>
-									</div>
-									<div class="flex-grow-1 ms-2">
-										<h6 class="mb-0">Other Files</h6>
-										<p class="mb-0 text-secondary">458 files</p>
-									</div>
-									<h6 class="text-primary mb-0">3 GB</h6>
-								</div>
-								<div class="d-flex align-items-center mt-3">
-									<div class="fm-file-box bg-light-info text-info"><i class='bx bx-image'></i>
-									</div>
-									<div class="flex-grow-1 ms-2">
-										<h6 class="mb-0">Unknown Files</h6>
-										<p class="mb-0 text-secondary">57 files</p>
-									</div>
-									<h6 class="text-primary mb-0">178 GB</h6>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-12 col-lg-9">
-						<div class="card">
-							<div class="card-body">
-								<div class="fm-search">
-									<div class="mb-0">
-										<div class="input-group input-group-lg">	<span class="input-group-text bg-transparent"><i class='bx bx-search'></i></span>
-											<input type="text" class="form-control" placeholder="Search the files">
-										</div>
+                    <div class="col">
+						<div class="card radius-15">
+							<div class="card-body text-center">
+								<div class="p-4 border radius-15">
+									<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Microsoft_Word_2013-2019_logo.svg/2170px-Microsoft_Word_2013-2019_logo.svg.png" width="110" height="110"  alt="">
+									<h5 class="mb-0 mt-5">Microsoft Word</h5>
+
+									<div class="d-grid"> <a href="#" class="btn btn-outline-primary radius-15">Deschide</a>
 									</div>
 								</div>
-								<div class="row mt-3">
-									<div class="col-12 col-lg-4">
-										<div class="card shadow-none border radius-15">
-											<div class="card-body">
-												<div class="d-flex align-items-center">
-													<div class="fm-icon-box radius-15 bg-primary text-white"><i class='lni lni-google-drive'></i>
-													</div>
-													<div class="ms-auto font-24"><i class='bx bx-dots-horizontal-rounded'></i>
-													</div>
-												</div>
-												<h5 class="mt-3 mb-0">Google Drive</h5>
-												<p class="mb-1 mt-4"><span>45.5 GB</span>  <span class="float-end">50 GB</span>
-												</p>
-												<div class="progress" style="height: 7px;">
-													<div class="progress-bar bg-primary" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="col-12 col-lg-4">
-										<div class="card shadow-none border radius-15">
-											<div class="card-body">
-												<div class="d-flex align-items-center">
-													<div class="fm-icon-box radius-15 bg-danger text-white"><i class='lni lni-dropbox-original'></i>
-													</div>
-													<div class="ms-auto font-24"><i class='bx bx-dots-horizontal-rounded'></i>
-													</div>
-												</div>
-												<h5 class="mt-3 mb-0">Dropbox</h5>
-												<p class="mb-1 mt-4"><span>1,2 GB</span>  <span class="float-end">3 GB</span>
-												</p>
-												<div class="progress" style="height: 7px;">
-													<div class="progress-bar bg-danger" role="progressbar" style="width: 45%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="col-12 col-lg-4">
-										<div class="card shadow-none border radius-15">
-											<div class="card-body">
-												<div class="d-flex align-items-center">
-													<div class="fm-icon-box radius-15 bg-warning text-dark"><i class='bx bxs-door-open'></i>
-													</div>
-													<div class="ms-auto font-24"><i class='bx bx-dots-horizontal-rounded'></i>
-													</div>
-												</div>
-												<h5 class="mt-3 mb-0">OneDrive</h5>
-												<p class="mb-1 mt-4"><span>2,5 GB</span>  <span class="float-end">3 GB</span>
-												</p>
-												<div class="progress" style="height: 7px;">
-													<div class="progress-bar bg-warning" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-												</div>
-											</div>
-										</div>
+							</div>
+						</div>
+					</div>
+                    <div class="col">
+						<div class="card radius-15">
+							<div class="card-body text-center">
+								<div class="p-4 border radius-15">
+									<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Microsoft_Excel_2013-2019_logo.svg/2170px-Microsoft_Excel_2013-2019_logo.svg.png" width="110" height="110"  alt="">
+									<h5 class="mb-0 mt-5">Microsoft Excell</h5>
+
+									<div class="d-grid"> <a href="#" class="btn btn-outline-primary radius-15">Deschide</a>
 									</div>
 								</div>
-								<!--end row-->
-								<h5>Folders</h5>
-								<div class="row mt-3">
-									<div class="col-12 col-lg-4">
-										<div class="card shadow-none border radius-15">
-											<div class="card-body">
-												<div class="d-flex align-items-center">
-													<div class="font-30 text-primary"><i class='bx bxs-folder'></i>
-													</div>
-													<div class="user-groups ms-auto">
-														<img src="assets/images/avatars/avatar-1.png" width="35" height="35" class="rounded-circle" alt="" />
-														<img src="assets/images/avatars/avatar-2.png" width="35" height="35" class="rounded-circle" alt="" />
-													</div>
-													<div class="user-plus">+</div>
-												</div>
-												<h6 class="mb-0 text-primary">Analytics</h6>
-												<small>15 files</small>
-											</div>
-										</div>
-									</div>
-									<div class="col-12 col-lg-4">
-										<div class="card shadow-none border radius-15">
-											<div class="card-body">
-												<div class="d-flex align-items-center">
-													<div class="font-30 text-primary"><i class='bx bxs-folder'></i>
-													</div>
-													<div class="user-groups ms-auto">
-														<img src="assets/images/avatars/avatar-4.png" width="35" height="35" class="rounded-circle" alt="" />
-													</div>
-												</div>
-												<h6 class="mb-0 text-primary">Assets</h6>
-												<small>345 files</small>
-											</div>
-										</div>
-									</div>
-									<div class="col-12 col-lg-4">
-										<div class="card shadow-none border radius-15">
-											<div class="card-body">
-												<div class="d-flex align-items-center">
-													<div class="font-30 text-primary"><i class='bx bxs-folder'></i>
-													</div>
-													<div class="user-groups ms-auto">
-														<img src="assets/images/avatars/avatar-7.png" width="35" height="35" class="rounded-circle" alt="" />
-														<img src="assets/images/avatars/avatar-8.png" width="35" height="35" class="rounded-circle" alt="" />
-													</div>
-												</div>
-												<h6 class="mb-0 text-primary">Marketing</h6>
-												<small>143 files</small>
-											</div>
-										</div>
+							</div>
+						</div>
+					</div>
+                    <div class="col">
+						<div class="card radius-15">
+							<div class="card-body text-center">
+								<div class="p-4 border radius-15">
+									<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg/640px-Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg.png" width="110" height="110"  alt="">
+									<h5 class="mb-0 mt-5">Microsoft PowerPoint</h5>
+
+									<div class="d-grid"> <a href="#" class="btn btn-outline-primary radius-15">Deschide</a>
 									</div>
 								</div>
-								<!--end row-->
-								<div class="d-flex align-items-center">
-									<div>
-										<h5 class="mb-0">Recent Files</h5>
-									</div>
-									<div class="ms-auto"><a href="javascript:;" class="btn btn-sm btn-outline-secondary">View all</a>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card radius-15">
+							<div class="card-body text-center">
+								<div class="p-4 border radius-15">
+									<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAb1BMVEVChfT///8ZZ9I1f/SxyPo5gfSXtvgwffPV4fwpevPl7P3r8P36/P8LYtF5o/ZBhPQ2edfU4vbK2vRDf9nQ3/U+fNjW5PdIifRTj/V+qvfb5/2/0/vE1fvR3vzF2fyrxvmVtfiGr/hqnPZLjPSbu/iNYbvnAAADWklEQVR4nO3d7VKbQBSAYciK2tAUrW1DwGD8uP9rLI5xWtsf7i5nc87JvO8FRJ5hl12QTKr63Ku0D6B4CP2H0H8I/Yfw39rp4eWyQIfbIrw6VTjs+m3XlCjc/TAgHHah6bqqTJub7+rCqQ+FdK+tNjdlzmK8cHxuCgKr1Wpz90tVeL8tNT7fhasyAzVWuO7LAl+FZYixwseiQ/QonInyi0akcCh2Df0gnOeiODFSeCh9Co/CAgM1Ttg+lT6F70L5RSNOuC99nfkjFB+occKxOp1wtfkpehbjhBfFp+FfQuG5aFE4EwV3N5HCkjvS/4WiGzibQsmBalQouGhYFc5XVKFFw6xwnosyZ9GuUGouGhYK3WlYFsps4EwLRQaqbaHEomFcOC8aS3c31oXLFw3zwsVz0b5w6Vx0IFx4p+FBuGyguhAuIvoQLtnAOREu2MB5EeYPVDfC7EXDjzB3oDoSZj4q9iTMm4uuhFmPin0JczZwzoQZA9WbMH3RcCdMflTsT5h61+9QmDgXPQrT7jRcCpM2cD6FKQPVqTCB6FUYv4FzK4xeNMwI0wsXCBEi1A4hQoT6IUSIUD+ECBHqhxAhQv0QIkSoH0KEacLwRb5P/+YpheE66mPSuv7sj55SeFVEeIUw6mMQvoUQYVYIER5D+BbCMLZr6drR0q6tClfymdp5q4QQIUL9ECJEqB9ChAj1QygrPPu7p3Dfyndv6Q74/J9iIMwKIcJjCN9CiDArhKfdte3rr9LVe0u7tvN/Y0glhAgR6ocQIUL9ECJEqB9CWWGz5B8Umb94dlJhc3Gd35D5w3yOnmJ8y/vNM4QIESJEiBAhQmnhcO7CqgkL8rDzVgkhQoT6IUSIUD+ECBHqhxAhQv0QIkSoH0KECPVDiBChfggRItQPIUKE+iFEiFA/hAg/CvPerSvb+QsbSeFYZb4/WLRRULjv7Qm7Pu613Thhm/nVpJJ1T62gsD7Ym4jNIe7QI4VDZ+0kdt1aVFg/WlsRw2PkkccK18auNU0fNwvjhfW0tUTstlPsgUcL6/HZztWmeY5bC9OE9dRbmYuhjz6DScJ62IVG/ZradU3YpXyBJUX4auy3VaNZte2TfKnCeXczPbxc6vXyMMVeQ3OF/kLoP4T+Q+g/hP77DdqWqCVZTzgAAAAAAElFTkSuQmCC" width="110" height="110"  alt="">
+									<h5 class="mb-0 mt-5">Google Docs</h5>
+
+									<div class="d-grid"> <a href="#" class="btn btn-outline-primary radius-15">Deschide</a>
 									</div>
 								</div>
-								<div class="table-responsive mt-3">
-									<table class="table table-striped table-hover table-sm mb-0">
-										<thead>
-											<tr>
-												<th>Name <i class='bx bx-up-arrow-alt ms-2'></i>
-												</th>
-												<th>Members</th>
-												<th>Last Modified</th>
-												<th></th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td>
-													<div class="d-flex align-items-center">
-														<div><i class='bx bxs-file-pdf me-2 font-24 text-danger'></i>
-														</div>
-														<div class="font-weight-bold text-danger">Competitor Analysis Template</div>
-													</div>
-												</td>
-												<td>Only you</td>
-												<td>Sep 3, 2019</td>
-												<td><i class='bx bx-dots-horizontal-rounded font-24'></i>
-												</td>
-											</tr>
-											<tr>
-												<td>
-													<div class="d-flex align-items-center">
-														<div><i class='bx bxs-file me-2 font-24 text-primary'></i>
-														</div>
-														<div class="font-weight-bold text-primary">How to Create a Case Study</div>
-													</div>
-												</td>
-												<td>3 members</td>
-												<td>Jun 12, 2019</td>
-												<td><i class='bx bx-dots-horizontal-rounded font-24'></i>
-												</td>
-											</tr>
-											<tr>
-												<td>
-													<div class="d-flex align-items-center">
-														<div><i class='bx bxs-file me-2 font-24 text-primary'></i>
-														</div>
-														<div class="font-weight-bold text-primary">Landing Page Structure</div>
-													</div>
-												</td>
-												<td>10 members</td>
-												<td>Jul 17, 2019</td>
-												<td><i class='bx bx-dots-horizontal-rounded font-24'></i>
-												</td>
-											</tr>
-											<tr>
-												<td>
-													<div class="d-flex align-items-center">
-														<div><i class='bx bxs-file-pdf me-2 font-24 text-danger'></i>
-														</div>
-														<div class="font-weight-bold text-danger">Meeting Report</div>
-													</div>
-												</td>
-												<td>5 members</td>
-												<td>Aug 28, 2019</td>
-												<td><i class='bx bx-dots-horizontal-rounded font-24'></i>
-												</td>
-											</tr>
-											<tr>
-												<td>
-													<div class="d-flex align-items-center">
-														<div><i class='bx bxs-file me-2 font-24 text-primary'></i>
-														</div>
-														<div class="font-weight-bold text-primary">Project Documents</div>
-													</div>
-												</td>
-												<td>Only you</td>
-												<td>Aug 17, 2019</td>
-												<td><i class='bx bx-dots-horizontal-rounded font-24'></i>
-												</td>
-											</tr>
-											<tr>
-												<td>
-													<div class="d-flex align-items-center">
-														<div><i class='bx bxs-file-doc me-2 font-24 text-success'></i>
-														</div>
-														<div class="font-weight-bold text-success">Review Checklist Template</div>
-													</div>
-												</td>
-												<td>7 members</td>
-												<td>Sep 8, 2019</td>
-												<td><i class='bx bx-dots-horizontal-rounded font-24'></i>
-												</td>
-											</tr>
-											<tr>
-												<td>
-													<div class="d-flex align-items-center">
-														<div><i class='bx bxs-file me-2 font-24 text-primary'></i>
-														</div>
-														<div class="font-weight-bold text-primary">How to Create a Case Study</div>
-													</div>
-												</td>
-												<td>3 members</td>
-												<td>Jun 12, 2019</td>
-												<td><i class='bx bx-dots-horizontal-rounded font-24'></i>
-												</td>
-											</tr>
-											<tr>
-												<td>
-													<div class="d-flex align-items-center">
-														<div><i class='bx bxs-file me-2 font-24 text-primary'></i>
-														</div>
-														<div class="font-weight-bold text-primary">Landing Page Structure</div>
-													</div>
-												</td>
-												<td>10 members</td>
-												<td>Jul 17, 2019</td>
-												<td><i class='bx bx-dots-horizontal-rounded font-24'></i>
-												</td>
-											</tr>
-											<tr>
-												<td>
-													<div class="d-flex align-items-center">
-														<div><i class='bx bxs-file-doc me-2 font-24 text-success'></i>
-														</div>
-														<div class="font-weight-bold text-success">Review Checklist Template</div>
-													</div>
-												</td>
-												<td>7 members</td>
-												<td>Sep 8, 2019</td>
-												<td><i class='bx bx-dots-horizontal-rounded font-24'></i>
-												</td>
-											</tr>
-										</tbody>
-									</table>
+							</div>
+						</div>
+					</div>
+                    <div class="col">
+						<div class="card radius-15">
+							<div class="card-body text-center">
+								<div class="p-4 border radius-15">
+									<img src="data:image/jpeg;base64,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" width="110" height="110"  alt="">
+									<h5 class="mb-0 mt-5">Google Sheets</h5>
+
+									<div class="d-grid"> <a href="#" class="btn btn-outline-primary radius-15">Deschide</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+                    <div class="col">
+						<div class="card radius-15">
+							<div class="card-body text-center">
+								<div class="p-4 border radius-15">
+									<img src="https://upload.wikimedia.org/wikipedia/commons/d/da/Google_Drive_logo.png" width="110" height="110"  alt="">
+									<h5 class="mb-0 mt-5">Google Drive</h5>
+
+									<div class="d-grid"> <a href="#" class="btn btn-outline-primary radius-15">Deschide</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+                    <div class="col">
+						<div class="card radius-15">
+							<div class="card-body text-center">
+								<div class="p-4 border radius-15">
+									<img src="https://cdn-icons-png.flaticon.com/512/2965/2965358.png" width="110" height="110"  alt="">
+									<h5 class="mb-0 mt-5">Google Keep</h5>
+
+									<div class="d-grid"> <a href="#" class="btn btn-outline-primary radius-15">Deschide</a>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<!--end row-->
 			</div>
 		</div>
-			
-		
-		
 		<!--end page wrapper -->
 		<!--start overlay-->
 		<div class="overlay toggle-icon"></div>
@@ -1049,7 +806,7 @@
 		<footer class="page-footer">
 			<p class="mb-0">Copyright © 2021. All right reserved.</p>
 		</footer>
-	
+	</div>
 	<!--end wrapper-->
 	<!--start switcher-->
 	<div class="switcher-wrapper">
@@ -1152,75 +909,8 @@
 	<!--plugins-->
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/plugins/simplebar/js/simplebar.min.js"></script>
-	<script src="assets/plugins/fullcalendar/js/main.min.js"></script>
 	<script src="assets/plugins/metismenu/js/metisMenu.min.js"></script>
 	<script src="assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js"></script>
-	<script>
-		document.addEventListener('DOMContentLoaded', function () {
-			var calendarEl = document.getElementById('calendar');
-			var calendar = new FullCalendar.Calendar(calendarEl, {
-				headerToolbar: {
-					left: 'prev,next today',
-					center: 'title',
-					right: 'dayGridMonth,timeGridWeek,timeGridDay,listWeek'
-				},
-				initialView: 'dayGridMonth',
-				initialDate: '2020-09-12',
-				navLinks: true, // can click day/week names to navigate views
-				selectable: true,
-				nowIndicator: true,
-				dayMaxEvents: true, // allow "more" link when too many events
-				editable: true,
-				selectable: true,
-				businessHours: true,
-				dayMaxEvents: true, // allow "more" link when too many events
-				events: [{
-					title: 'All Day Event',
-					start: '2020-09-01',
-				}, {
-					title: 'Long Event',
-					start: '2020-09-07',
-					end: '2020-09-10'
-				}, {
-					groupId: 999,
-					title: 'Repeating Event',
-					start: '2020-09-09T16:00:00'
-				}, {
-					groupId: 999,
-					title: 'Repeating Event',
-					start: '2020-09-16T16:00:00'
-				}, {
-					title: 'Conference',
-					start: '2020-09-11',
-					end: '2020-09-13'
-				}, {
-					title: 'Meeting',
-					start: '2020-09-12T10:30:00',
-					end: '2020-09-12T12:30:00'
-				}, {
-					title: 'Lunch',
-					start: '2020-09-12T12:00:00'
-				}, {
-					title: 'Meeting',
-					start: '2020-09-12T14:30:00'
-				}, {
-					title: 'Happy Hour',
-					start: '2020-09-12T17:30:00'
-				}, {
-					title: 'Dinner',
-					start: '2020-09-12T20:00:00'
-				}, {
-					title: 'Birthday Party',
-					start: '2020-09-13T07:00:00'
-				}, {
-					title: 'Click for Google',
-					url: 'http://google.com/',
-					start: '2020-09-28'
-				}]
-			});
-			calendar.render();
-		});
-	</script>
 	<!--app JS-->
 	<script src="assets/js/app.js"></script>
 </body>
